@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# Ignore Unreal Engine files
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+
+# Ignore Unreal assets (use Git LFS instead)
+*.uasset
+*.umap
